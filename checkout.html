@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="stylesheet" href="./checkout.css">
+    <title>Checkout</title>
+</head>
+<body>
+    <header class="container">
+        <h1>Checkout</h1>
+    </header>
+    <main class="container">
+        <section>
+            <div class="contact-information">
+                <h3>Contact information</h3>
+
+                <form class="form">
+                    <div>
+                        <label for="email">E-mail</label>
+                        <div class="input">
+                            <i class="fas fa-envelope"></i>
+                            <input type="text" id="email" placeholder="Enter your email...">
+                        </div>
+                    </div>
+                    <div>
+                        <label for="email">Phone</label>
+                        <div class="input">
+                            <i class="fas fa-phone"></i>
+                            <input type="text" id="phone" placeholder="Enter your phone...">
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+
+            <div class="shipping-address">
+                <h3>Shipping address</h3>
+                <form class="form">
+                    <div>
+                        <label for="full-name">Full name</label>
+                        <div class="input">
+                            <i class="fas fa-user-alt"></i>
+                            <input type="text" id="full-name" placeholder="Your name...">
+                        </div>
+                    </div>
+                    <div>
+                        <label for="address">Address</label>
+                        <div class="input">
+                            <i class="fas fa-home"></i>
+                            <input type="text" id="address" placeholder="Your address...">
+                        </div>
+                    </div>
+                    <div>
+                        <label for="city">City</label>
+                        <div class="input">
+                            <i class="fas fa-city"></i>
+                            <input type="text" id="city" placeholder="Your address...">
+                        </div>
+                    </div>
+                    <div class="location">
+                        <div>
+                            <label for="country">Country</label>
+                            <div class="input">
+                                <i class="fas fa-city"></i>
+                                <input type="text" id="country" placeholder="Your country...">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="post-card">Post card</label>
+                            <div class="input">
+                                <i class="fas fa-city"></i>
+                                <input type="text" id="post-card" placeholder="Your post card...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" name="checkbox" id="checkbox">
+                        <p>save this information for next time</p>
+                    </div>
+                    <button class="form-btn">Continue</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="checkout-list">
+            <div class="item">
+                <img src="./collection/photo1.png" alt="">
+                <div class="details">
+                    <h4 class="item-name">Vintage backpack</h4>
+                    <div class="item-price">
+                        <p class="price">$54.99</p>
+                        <p class="line-through-price">$94.99</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

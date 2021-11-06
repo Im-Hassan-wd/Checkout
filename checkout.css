@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  display: flex;
+}
+
+header h1 {
+  color: #4e5150;
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 2% auto;
+}
+
+.contact-information h3,
+.shipping-address h3 {
+  color: #333333;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.contact-information,
+.shipping-address {
+  margin: 50px 0;
+}
+
+form {
+  margin-top: 15px;
+}
+
+form div {
+  margin: 10px 0;
+}
+
+form label {
+  margin: 5px 0;
+  color: #4f4f4f;
+  font-size: 0.82rem;
+  display: block;
+}
+
+form p {
+  font-size: 0.7rem;
+}
+
+.form input {
+  border: none;
+  width: 390px;
+  outline: none;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  height: 40px;
+  border: 1px solid #828282;
+  border-radius: 12px;
+  outline-color: #828282;
+}
+
+.input i {
+  margin: 0 10px;
+  color: #828282;
+}
+
+i.fa-phone {
+  transform: rotate(95deg);
+}
+
+.location {
+  width: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.location .input {
+  width: 190px;
+  margin-right: 5px;
+}
+
+.location input {
+  width: 100px;
+}
+
+#checkbox {
+  width: initial;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.checkbox {
+  display: flex;
+}
+
+.form-btn {
+  width: 150px;
+  height: 40px;
+  background: #f2994a;
+  border-radius: 12px;
+  margin: auto;
+  border: none;
+  color: #fff;
+}
+
+.checkout-list {
+  margin-left: 70px;
+  width: 500px;
+  background: #f2f2f2;
+  border-radius: 12px;
+  height: 500px;
+  padding: 25px;
+}
+
+.checkout-list img {
+  width: 150px;
+  border-radius: 12px;
+}
+
+.checkout-list .item {
+  display: flex;
+}
+
+.item .details {
+  margin-left: 20px;
+}
+
+.item-name {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #4e5150;
+}
+
+@media (max-width: 1030px) {
+  .container {
+    padding: 0 20px;
+  }
+}
