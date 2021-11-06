@@ -134,11 +134,21 @@ i.fa-phone {
   display: flex;
 }
 
+.checkout-list h4 {
+  font-size: 0.9rem;
+  color: #4e5150;
+}
+
+.item {
+  margin-bottom: 40px;
+}
+
 .item .details {
   margin-left: 20px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  width: 130px;
 }
 
 .item-name {
@@ -160,9 +170,14 @@ i.fa-phone {
   margin-right: 10px;
 }
 
-.old-price {
+.old-price,
+.shipping-section p {
   text-decoration: line-through;
   font-size: 0.75rem;
+}
+
+.shipping-section p {
+  text-decoration: none;
 }
 
 .quantity {
@@ -176,8 +191,23 @@ i.fa-phone {
 }
 
 .quantity button {
-  padding: 1px 2px;
-  font-size: 1rem;
+  padding: 2px 5px;
+  font-size: 0.8rem;
+  background: #e0e0e0;
+  border: none;
+}
+
+.shipping-section {
+  margin-top: 60px;
+}
+
+.shipping,
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #bdbdbd;
+  padding: 5px 0;
 }
 
 @media (max-width: 1030px) {
