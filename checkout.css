@@ -36,12 +36,18 @@ h4 {
   margin: 50px 0;
 }
 
+.shipping-address .form,
+.contact-information .form {
+  display: flex;
+  flex-direction: column;
+}
+
 form {
   margin-top: 15px;
 }
 
 form div {
-  margin: 10px 0;
+  margin: 5px 0;
 }
 
 form label {
@@ -56,15 +62,17 @@ form p {
 }
 
 .form input {
+  max-width: 378px;
+  height: 38px;
   border: none;
-  width: 390px;
+  border-radius: 12px;
   outline: none;
 }
 
 .input {
   display: flex;
   align-items: center;
-  width: 400px;
+  max-width: 380px;
   height: 40px;
   border: 1px solid #828282;
   border-radius: 12px;
@@ -81,18 +89,18 @@ i.fa-phone {
 }
 
 .location {
-  width: 400px;
+  max-width: 400px;
   display: flex;
   align-items: center;
 }
 
 .location .input {
-  width: 190px;
+  max-width: 190px;
   margin-right: 5px;
 }
 
 .location input {
-  width: 100px;
+  max-width: 140px;
 }
 
 #checkbox {
@@ -103,6 +111,7 @@ i.fa-phone {
 
 .checkbox {
   display: flex;
+  align-items: center;
 }
 
 .form-btn {
@@ -110,18 +119,20 @@ i.fa-phone {
   height: 40px;
   background: #f2994a;
   border-radius: 12px;
-  margin: auto;
   border: none;
   color: #fff;
+  margin-left: auto;
 }
 
 .checkout-list {
   margin-left: 70px;
-  width: 500px;
+  max-width: 355px;
   background: #f2f2f2;
   border-radius: 12px;
   height: 500px;
   padding: 25px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .checkout-list img {
@@ -134,7 +145,8 @@ i.fa-phone {
   display: flex;
 }
 
-.checkout-list h4 {
+.checkout-list h4,
+.checkout-list {
   font-size: 0.9rem;
   color: #4e5150;
 }
@@ -184,7 +196,7 @@ i.fa-phone {
   display: flex;
   align-items: center;
   margin-top: 10px;
-  padding: 5px;
+  padding: 7px 0;
   justify-content: space-around;
   border: 1px solid #828282;
   border-radius: 12px;
@@ -213,5 +225,35 @@ i.fa-phone {
 @media (max-width: 1030px) {
   .container {
     padding: 0 20px;
+  }
+}
+
+@media (max-width: 878px) {
+  main {
+    flex-direction: column;
+  }
+
+  .form-btn {
+    margin-left: 200px;
+  }
+
+  .checkout-list {
+    margin-left: 0px;
+  }
+  .web-form {
+    order: 1;
+  }
+}
+
+@media (max-width: 400px) {
+  .location input {
+    max-width: 120px;
+  }
+  .location .input {
+    max-width: 180px;
+  }
+
+  .form-btn {
+    margin-left: 170px;
   }
 }
