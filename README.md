@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">{Sopping Checkout}</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -26,9 +26,9 @@
 
 ## Table of Contents
 
-- [Overview](#overview)
-  - [Built With](#built-with)
-- [Features](#features)
+- [Overview](#A shopping website checkout page that contains two items with there prices and shipping fee. )
+  - [Built With](#HTML and CSS)
+- [Features](#It contains a form and checkout section)
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
 
