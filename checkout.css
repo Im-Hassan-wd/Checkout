@@ -20,6 +20,10 @@ h4 {
   font-weight: 600;
 }
 
+.information {
+  max-width: 500px;
+}
+
 .container {
   max-width: 1000px;
   margin: 2% auto;
@@ -229,31 +233,24 @@ i.fa-phone {
 }
 
 @media (max-width: 878px) {
-  main {
-    flex-direction: column;
+  .information {
+    order: 1;
   }
 
-  .form-btn {
-    margin-left: 200px;
+  main {
+    flex-direction: column;
   }
 
   .checkout-list {
     margin-left: 0px;
   }
-  .web-form {
-    order: 1;
-  }
 }
 
 @media (max-width: 400px) {
   .location input {
-    max-width: 120px;
+    max-width: 130px;
   }
   .location .input {
-    max-width: 180px;
-  }
-
-  .form-btn {
-    margin-left: 170px;
+    max-width: 190px;
   }
 }
