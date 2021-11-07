@@ -236,6 +236,7 @@ i.fa-phone {
 @media (max-width: 878px) {
   .information {
     order: 1;
+    max-width: 390px;
   }
 
   main {
