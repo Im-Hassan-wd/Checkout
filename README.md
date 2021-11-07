@@ -27,7 +27,7 @@
 ## Table of Contents
 
 - [Overview](#overview)
-  - [Built With](#Built with)
+  - [Built With](#built-with)
 - [Features](#Features)
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
@@ -84,6 +84,6 @@ $ npm start
 
 ## Contact
 
-- Website [your-website.com](https://devcheckout.netlify.app)
-- GitHub [@your-username](https://github.com/Im-Hassan-wd)
-- Twitter [@your-twitter](https://twitter.com/hassan_weird)
+- Website [checkout-page](https://devcheckout.netlify.app)
+- GitHub [Im-Hassan-wd](https://github.com/Im-Hassan-wd)
+- Twitter [hassan_weird](https://twitter.com/hassan_weird)
